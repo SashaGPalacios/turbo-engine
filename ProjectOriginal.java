@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class ProjectOriginal {
+public class SimilarityMeasurement {
 	
 	private static Scanner reader;
 	private static List<String> texts;
