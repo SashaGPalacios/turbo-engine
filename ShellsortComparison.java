@@ -6,21 +6,19 @@ import java.util.Scanner;
 
 public class ShellsortComparison {
 	private static Scanner reader;
-	private static Scanner input;
 	private static int comparisons;
 	private static int count[]; 
 	private static double times[];
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		reader = new Scanner(new File("3Doubles.txt")); //Takes in text file from the command line
+		reader = new Scanner(new File(args[0])); //Takes in text file from the command line
 		ArrayList<Double> data = new ArrayList<Double>();
 		while(reader.hasNext() ) {
 			double d = reader.nextDouble();
 			data.add(d);
 		}
-		input = new Scanner(System.in);
 		System.out.print("Please input the number of trials you wish to run: "); //Takes in a value for the variable "trials"
-		int trials = input.nextInt();
+		int trials = Integer.parseInt(args[1]);
 		
 		count = new int[4]; //Inputs the number of comparisons for each sequence into the array "count"
 		times = new double[4]; //Input the average time for each sequence into the array "times"
