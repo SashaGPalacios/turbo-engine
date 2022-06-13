@@ -1,5 +1,5 @@
 # turbo-engine
-My School Projects\
+My Projects\
 Similarity Measurement: This program is designed to take in a .txt file which lists the names of the .txt files that will be compared along with a an increment through the Command Prompt. The program will use this increment to compare each of the .txt files to the others then print a ratio and a percentage that represent their similarity.
 
 Shellsort Comparisons: The program will evaluate several increment sequences to be used in Shellsort.  From the sequences provided, the time required to sort the data set will be averaged over some number of runs.  The number  of  runs  will  be  a  variable  that  a  user  can  enter  from  the  command  line  when starting the program. The sequences used are:
